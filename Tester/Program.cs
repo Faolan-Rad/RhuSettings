@@ -25,6 +25,12 @@ namespace Tester
             val = SettingsManager<TestSettigs>.loadSettingsFromString("", DataType.YAML);
             LogSettingsObject(val);
 
+            if (SaveTest)
+            {
+                Console.WriteLine("Save Test");
+
+            }
+
         }
 
         public static void LogSettingsObject(SettingsObject obj) 
