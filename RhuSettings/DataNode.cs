@@ -4,9 +4,17 @@ using System.Text;
 
 namespace RhuSettings
 {
-    internal class DataNode<T>: DataObject
+    public class DataNode : DataObject
     {
-        T val;
+        private object val = null;
 
+        public object getval()
+        {
+            return val;
+        }
+        public void setval(object newval)
+        {
+             val = newval;
+        }
     }
 }

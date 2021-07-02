@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RhuSettings
 {
-    internal class DataObject
+    public class DataObject
     {
         string field;
 
